@@ -1,0 +1,108 @@
+#+TITLE:       Personal CV
+#+AUTHOR:      Zhibin Huang
+#+EMAIL:       lesliebinbin@Zhibins-MacBook-Pro.local
+#+DATE:        2019-11-13 Wed
+#+URI:         /blog/%y/%m/%d/personal-cv
+#+KEYWORDS:    CV
+#+TAGS:        CV
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: This is my personal cv
+#+LaTeX_HEADER: \usepackage{leslie_cv}
+
+* Contact Info
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align rp{0.85\textwidth}
+|             <r> |                                                       |
+|          Phone: | 0408140906                                            |
+|          Email: | [[mailto:zhibin.huang@uqconnect.edu.au][zhibin.huang@uqconnect.edu.au]]                         |
+| Current Address | R304/109 Sir Fred Schonell Drive, St Lucia, QLD, 4067 |
+|         Github: | [[https://github.com/lesliebinbin][https://github.com/lesliebinbin]]
+* Work Experience
+** 04/2017-10/2017
+
+ *Android Application and Backend Developer*
+
+ /Shenzhen Topway Network Engineering CO.,Ltd/
+
+ - Develop server system to monitor the quality of network devices (CMTS, Optical Platform, etc.) based on SpringBoot Framework and SNMP Protocol.
+
+ - Based on the API provided by the server system above, develop an android application for the  filed Engineers in order to check and update the field condition of network  devices.
+
+** 2015/04 – 2016/08
+
+  *Presales and Technical Support for Office 365 Business*
+
+  /Shanghai Wicresoft Co. Ltd/
+
+  - From emails and online query about Office 365 Business, gather customers'
+    demands, and submit the collected information to Microsoft sales partners.
+
+  - From emails and online query, deal with FAQs about customers' subscription.
+
+** 2013/06 - 2015/01
+
+   *E-commerce Technical Support and Admin*
+
+   /Zhanjiang Attain Industrial Co.,Ltd./
+
+  - Deal with resource allocation for new staff
+
+  - Deal with incoming query about online product in /Alibaba/ platform.
+
+  - Deal with resource allocation for oversea exhibitions.
+
+
+* Education
+** 07/2018-Current
+   *University of Queensland*
+
+   Master of Information Technology
+
+** 09/2009-06/2013
+   *Sun Yat-sen University*
+
+   Bachelor of Marine Science
+* Coding Skills
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align lp{0.85\textwidth}
+| <l>         |                              |
+| C           | A good command of C language |
+| C++         | Basic knowledge of C++       |
+| Java        | A good command of Java       |
+| Python      | A good command of Python     |
+| Shell       | A good command of Linux bash |
+| Common Lisp | Familiar with Common Lisp    |
+| Clojure     | Familiar with Clojure        |
+
+
+* Framework And Dev Tools
+#+ATTR_HTML: :frame void
+#+ATTR_LATEX: :environment tabular :align lp{0.85\textwidth}
+| <l>                               |
+| Spring boot and Spring cloud      |
+| Flask, Ruby On Rails,Express      |
+| Docker                            |
+| Nginx                             |
+| React, Redux and Bootstrap        |
+| Linux Distributions(Ubuntu, Kali) |
+| Emacs                             |
+
+* Projects
+** Mind Initiative
+    [[https://deco3801-lambda.uqcloud.net/][Informative Link]]
+
+    [[http://167.71.198.93/][Web App Link]]
+
+    [[http://167.71.198.93:8761/][Backend Microservices Info Link]]
+
+    [[http://167.71.198.93:9090/
+][Admin Portal Link]]
+
+
+    Functional Description : Mind initiative is an web application for psychologist faculty with functions as below:
+     1) A questionnaire system, psychologists should be able to add a new questionnaire and patients’ answers should be recorded for further mental status analysis.
+     2) Treatment Videos
+     3) Making appointments with psychologists
+     4) Simple FAQ Chat Bot
+     5) A Monitor Admin Portal
