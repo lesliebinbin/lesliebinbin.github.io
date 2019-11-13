@@ -123,11 +123,11 @@
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/post/source-code-demo/" class="color-inherit dim link">
-            Source Code Demo
+            Output in one babel block as input for another block
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          return [1,2,3,4]     1 2 3 4    require &#39;date&#39; &#34;This file was last evaluated on #{Date.today}&#34;  This file was last evaluated on 2019-11-13  
+          # This is one of the python code output return [i for i in range(20)]     0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19    # The python code here will take the python code output above as input return [ i**2 for i in input]     0 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361    # This is one of the ruby code output require &#39;date&#39; &#34;This file was last evaluated on #{Date.
         </div>
           <a href="/post/source-code-demo/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
