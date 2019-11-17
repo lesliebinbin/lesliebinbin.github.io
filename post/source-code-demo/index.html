@@ -6,7 +6,7 @@
     
     <title>My New Hugo Site  | Output in one babel block as input for another block</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.58.3" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -37,7 +37,7 @@
 
 <meta itemprop="datePublished" content="2019-11-13T18:51:33&#43;10:00" />
 <meta itemprop="dateModified" content="2019-11-13T18:51:33&#43;10:00" />
-<meta itemprop="wordCount" content="135">
+<meta itemprop="wordCount" content="162">
 
 
 
@@ -188,6 +188,32 @@ This file was last evaluated on 2019-11-13
 </div>
 <pre class="example">
 was last evaluated on 2019-11-1
+</pre>
+<div class="src src-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">  (<span style="color:#a6e22e">princ</span> <span style="color:#e6db74">&#34;This is the common lisp&#34;</span>)</code></pre></div>
+</div>
+<pre class="example">
+This is the common lisp
+</pre>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#f92672">&#39;</span>(<span style="color:#ae81ff">1</span> <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">3</span> <span style="color:#ae81ff">4</span> <span style="color:#ae81ff">5</span>)</code></pre></div>
+</div>
+<table>
+<tbody>
+<tr>
+<td class="align-right">1</td>
+<td class="align-right">2</td>
+<td class="align-right">3</td>
+<td class="align-right">4</td>
+<td class="align-right">5</td>
+</tr>
+</tbody>
+</table>
+<div class="src src-clojure">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-clojure" data-lang="clojure">(rest input)</code></pre></div>
+</div>
+<pre class="example">
+nil(2 3 4 5)
 </pre>
 <ul class="pa0">
   
