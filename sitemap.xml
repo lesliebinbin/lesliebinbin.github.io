@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>/tags/spacemacs/</loc>
+    <lastmod>2019-11-17T23:23:16+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/spacemacs_tut/</loc>
+    <lastmod>2019-11-17T23:23:16+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2019-11-17T23:23:16+10:00</lastmod>
   </url>
   
@@ -29,10 +39,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>
