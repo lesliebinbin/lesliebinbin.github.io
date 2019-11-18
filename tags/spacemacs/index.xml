@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Spacemacs Step By Step</title>
+      <title>Spacemacs Step By Step 01</title>
       <link>/post/spacemacs_tut/</link>
       <pubDate>Sun, 17 Nov 2019 23:23:16 +1000</pubDate>
       
       <guid>/post/spacemacs_tut/</guid>
-      <description>Installation  Clone the repository and switch to develop branch     Clone the Spacemacs  git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d    Switch to the develop branch  cd ~/.emacs.d &amp;amp;&amp;amp; git checkout develop &amp;amp;&amp;amp; cd -   Clone my spacemacs configure repository     Remember, before clone the configure repository don&amp;#39;t start the emacs.  git clone https://github.com/lesliebinbin/my-spacemacs-osx-version.git .spacemacs.d    For Mac user, you can stay in the master branch or the develop branch    to switch to the develop branch:  cd .</description>
+      <description>Sup, guys. Here we go, Spacemacs really rocks. It is one of the emacs distributions, perhaps the most popular one among community driven.  It is either Vim or Emacs that should be the editor for some one for a life time, as for me, no doubt it is Emacs.  There will be multiple posts about how to configure spacemacs for programming, receiving emails, listen to spotify and other cool stuff.</description>
     </item>
     
   </channel>
